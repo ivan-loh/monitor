@@ -1,4 +1,9 @@
 #!/bin/bash
+#
+# for use on *buntu systems.
+#
+# Add this to your crontab
+# * * * * * bash /path/to/script/client.sh > /tmp/monitor-client.log 2> /tmp/monitor-client-error.log
 
 server=`hostname`
 apikey=<auth apikey>
